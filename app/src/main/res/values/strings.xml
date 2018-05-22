@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">词典</string>
+
+    <!-- 输入框提示 -->
+    <string name="hint">请输入需要翻译的文本</string>
+
+    <!-- 音标-->
+    <string name="uk">" "英" "</string>
+    <string name="us">" "美" "</string>
+
+    <!--标签-->
+    <string name="translation_label">有道翻译：</string>
+    <string name="explains_label">基本释义：</string>
+    <string name="web_label">网络释义：</string>
+
+    <!--查询历史-->
+    <string name="record_history">查询历史</string>
+
+    <!--标题-->
+    <string name="wordbook_title">"  "我的生词本</string>
+    <string name="wordDetail_title">"  "单词详情</string>
+
+    <!--按钮-->
+    <string name="wordbook_btn1">默认排序</string>
+    <string name="wordbook_btn2">字母排序</string>
+    <string name="wordbook_hideExplains">隐藏释义</string>
+    <string name="wordbook_showExplains">显示释义</string>
+
+    <!--菜单-->
+    <string name="menu_RecordWords">最近添加的单词</string>
+    <string name="menu_WordBook">单词本</string>
+    <string name="menu_Setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+</resources>

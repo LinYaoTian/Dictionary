@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:id="@+id/layout_DrawerMenu"
+    android:clickable="true"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/menu_RecordWords"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlue">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lv_RecentWord"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:textColor="@color/colorBlue"
+            android:gravity="center"
+            android:id="@+id/layout_setting">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/im_setting"
+                android:id="@+id/im_setting"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/im_setting"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/menu_Setting"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlue" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:textColor="@color/colorBlue"
+            android:gravity="center"
+            android:id="@+id/layout_wordbook">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/im_wordbook"
+                android:id="@+id/im_WordBook"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/im_WordBook"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/menu_WordBook"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlue" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

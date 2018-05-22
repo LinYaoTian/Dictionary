@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@color/colorBlue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <cn.dictionary.app.dictionary.widget.ClearEditText
+                android:id="@+id/et_input_widget"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="@color/colorWhite"
+                android:hint="@string/hint"
+                android:singleLine="true"
+                android:textColor="#545454"
+                android:textColorHint="#f6a7a7a7"
+                android:textSize="18sp"
+                android:drawableRight="@drawable/et_delete" />
+
+
+            <ImageButton
+                android:id="@+id/im_query_widget"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/im_query"
+                android:layout_marginStart="10dp"
+                android:clickable="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/widget_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1abefa</color>
+    <color name="colorPrimaryDark">#1abefa</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--主色调-->
+    <color name="colorBlue">#1abefa</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <!--搜索记录子项-->
+    <color name="colorRecordWord">#626161</color>
+    <color name="colorRecordExplains">#707070</color>
+
+    <!--单词本子项-->
+    <color name="colorWordBookWord">#595959</color>
+    <color name="colorWordBookExplains">#9a9a9a</color>
+
+    <!--搜索结果字体-->
+    <color name="colorResultText">#000000</color>
+
+    <!--主活动搜索框-->
+    <color name="colorMainTextHint">#bfbfbf</color>
+    <color name="colorTextView">#cfffffff</color>
+
+    <!--搜索和结果活动的搜索框-->
+    <color name="colorEdit">#545454</color>
+
+
+</resources>

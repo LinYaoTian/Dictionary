@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/im_menu"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/im_menu_normal" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_input"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/colorTextView"
+            android:text="@string/hint"
+            android:gravity="start|center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorMainTextHint"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+        <ImageButton
+            android:id="@+id/im_query"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/im_query" />
+
+    </LinearLayout>
+
+</LinearLayout>

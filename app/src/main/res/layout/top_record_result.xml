@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/bt_wordbook"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/im_back_normal" />
+
+
+        <cn.dictionary.app.dictionary.widget.ClearEditText
+            android:id="@+id/et_input_record"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:hint="@string/hint"
+            android:singleLine="true"
+            android:textColor="@color/colorEdit"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorMainTextHint"
+            android:textSize="18sp"
+            android:drawableRight="@drawable/et_delete" />
+
+
+        <ImageButton
+            android:id="@+id/im_query"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/im_query"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
